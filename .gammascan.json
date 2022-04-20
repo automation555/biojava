@@ -1,13 +1,13 @@
 {
     "gammaAccess": {
         "url": "",
-       "token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTY0NzIzODMxNjQ2OCwiaWF0IjoxNjQ3MjM4MzE2fQ.thR2bf3xmQJsXagdWWFH8GiKNk5zYK5EdoDmGA3gnRMEqVqwC2P4x9Nl2qTPKZe6y0VC0Sa90UHdkm8lakL3dw"
+       "token": "eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTY1MDQ1NzQwOTc0NywiaWF0IjoxNjUwNDU3NDA5fQ.NyFmmPgvtEmoiThUfp3YhCa5Cv8pet0PU0lOKAh8QCSKHbskG3SdUmk13KrTJLEkF4QMsTOEYkTGK-rkb8gQ0Q"
     },
     "repositories": [
         {
             "dataDir": "D:/testing/temp1",
             "repository": {
-                "uid": "369a70528e346578e46c12c745c5a02b",
+                "uid": "8553b24edf3ff3ed1fcec055134eb165",
                 "projectName": "biojava",
                 "languages": [
                     "JAVA"
