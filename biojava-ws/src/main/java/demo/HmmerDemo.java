@@ -44,7 +44,7 @@ public class HmmerDemo {
 		// first we get a UniProt sequence
 		String uniProtID = "P08487";
 		ProteinSequence seq = getUniprot(uniProtID);
-
+		int i=0;
 
 		// now we submit this sequence to the Hmmer web site
 		RemoteHmmerScan hmmer = new RemoteHmmerScan();
@@ -58,7 +58,7 @@ public class HmmerDemo {
 
 		int counter = 0;
 		for (HmmerResult hmmerResult : results) {
-			//System.out.println(hmmerResult);
+			System.out.println(hmmerResult);
 
 			for ( HmmerDomain domain : hmmerResult.getDomains()) {
 				counter++;
