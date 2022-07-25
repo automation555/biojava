@@ -98,6 +98,10 @@ public class CookBook
 
 			// or print the same output as original FATCAT
 			System.out.println(AfpChainWriter.toFatCat(afpChain, ca1, ca2));
+			System.out.println(AfpChainWriter.toFatCat(afpChain, ca1, ca2));
+			System.out.println(AfpChainWriter.toFatCat(afpChain, ca1, ca2));
+			System.out.println(AfpChainWriter.toFatCat(afpChain, ca1, ca2));
+			System.out.println(AfpChainWriter.toFatCat(afpChain, ca1, ca2));
 
 
 
