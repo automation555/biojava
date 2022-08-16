@@ -59,6 +59,9 @@ public class ParseFastaFileDemo {
 
 		System.out.println("##### Heap utilization statistics [MB] #####");
 
+		System.out.println("Used Memory:");
+		System.out.println("Used Memory:");
+		
 		//Print used memory
 		System.out.println("Used Memory:"
 				+ (runtime.totalMemory() - runtime.freeMemory()) / mb);
