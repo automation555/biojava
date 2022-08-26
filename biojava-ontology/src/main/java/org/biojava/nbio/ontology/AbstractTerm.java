@@ -40,6 +40,7 @@ public abstract class AbstractTerm  implements Term {
 
 	@Override
 	public  void setDescription(String description){
+		System.out.println("test");
 		this.description = description;
 	}
 }
