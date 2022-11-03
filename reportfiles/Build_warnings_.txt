@@ -1,0 +1,468 @@
+Warning statistic
+=================
+| Count | ID     | Warning description (text is from 1st occurence)                                                                                                                            |
++-------+--------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 37    | 191-D  | type qualifier is meaningless on cast type                                                                                                                                  |
+| 29    | 193-D  | zero used for undefined preprocessing identifier "DCM_CFG_RTESUPPORT_ENABLED"                                                                                               |
+| 20    | 550-D  | variable "RollRateChannelSensor_en" was set but never used                                                                                                                  |
+| 13    | 177-D  | function "rb_dsa_RoseStartResetPlausiDataSamplingRT" was declared but never referenced                                                                                      |
+|  2    | 167-D  | argument of type "TickType *" is incompatible with parameter of type "Can_TickType *"                                                                                       |
+|  2    | 188-D  | enumerated type mixed with another type                                                                                                                                     |
+|  1    | 260-D  | explicit type is missing ("int" assumed)                                                                                                                                    |
+|  1    | 186-D  | pointless comparison of unsigned integer with zero                                                                                                                          |
+|  1    | 1105-D | #warning directive: Inbox header files used for compilation                                                                                                                 |
+|  1    | 9-D    | nested comment is not allowed                                                                                                                                               |
+|  1    | 144-D  | a value of type "Std_ReturnType (*)(Dcm_OpStatusType, Dcm_NegativeResponseCodeType *)" cannot be used to initialize an entity of type "rb_dsm_IOCBIFuncPointerRtnCtrltoECU" |
+|  1    | 0-D    | warning Inbox header files used for compilation                                                                                                                             |
+|  1    | 174-D  | expression has no effect                                                                                                                                                    |
+
+110 warnings in total
+
+File statistic
+==============
+| File                                                                                                       | Count |
++------------------------------------------------------------------------------------------------------------+-------+
+| rb_ca_CoreAssets\rb_cry_CryptoStack\Cpl\src\Cpl_Mac.c                                                      | 13    |
+| rb_ca_CoreAssets\rb_cry_CryptoStack\Cpl\src\Cpl_Sym.c                                                      | 12    |
+| rb_cfg_Config\rb_cfgd_ConfigDefinitions\rb_cfgc_ConfigCDG\Diagnosis\Det_ErrorSaver.c                       |  8    |
+| rb_ca_CoreAssets\rb_coms_ComStack\rb_ci_ComInterface\rb_ci_ComInterface.c                                  |  6    |
+| generated\_headers\CanNm_Inl.h                                                                             |  4    |
+| rb_ca_CoreAssets\rb_cry_CryptoStack\Cpl\src\Cpl_Signature.c                                                |  4    |
+| rb_ca_CoreAssets\rb_alg_Algo\rb_sia_SensorInterfaceAlgo\rb_sia7_SensorInterfaceAlgoSmi7xx.c                |  4    |
+| rb_ca_CoreAssets\rb_mcd_McDrivers\Can\src\Can.c                                                            |  3    |
+| rb_ca_CoreAssets\rb_coms_ComStack\CanNm\src\CanNm.c                                                        |  3    |
+| rb_ca_CoreAssets\rb_coms_ComStack\Dcm\src\DcmDsp\DcmDspUds\DcmDspUds_Wdbi.c                                |  3    |
+| rb_ca_CoreAssets\rb_cd_ComplexDrivers\rb_co_CrashOutput\rb_cotm_InfoMgt.c                                  |  3    |
+| rb_ca_CoreAssets\rb_cd_ComplexDrivers\rb_csem_CentralSensorMgt\rb_cs7m_Smi7Manager.c                       |  2    |
+| rb_ca_CoreAssets\rb_alg_Algo\rb_dsa_DataSamplerAlgo\rb_dsa_DataSamplerAlgoRose.c                           |  2    |
+| generated\_headers\Nm.h                                                                                    |  2    |
+| rb_ca_CoreAssets\rb_ds_DiagStack\rb_prod_ProductionDiagnosis\rb_prlf_ProdiagLoginFunc.c                    |  2    |
+| generated\_headers\CanNm_Prv.h                                                                             |  2    |
+| rb_ca_CoreAssets\rb_alg_Algo\rb_rma_ReleaseMatrix\rb_rmai_ReleaseMatrixInterface.c                         |  2    |
+| generated\_headers\rb_ib_inbox.h                                                                           |  2    |
+| generated\_headers\Rte_Dcm_Type.h                                                                          |  2    |
+| generated\_headers\nm.h                                                                                    |  2    |
+| rb_ca_CoreAssets\rb_cry_CryptoStack\Cpl\src\Cpl_SymBlock.c                                                 |  2    |
+| rb_ca_CoreAssets\rb_cry_CryptoStack\Cpl\src\Cpl_Hash.c                                                     |  2    |
+| rb_ca_CoreAssets\rb_coms_ComStack\CanNm\src\CanNm_Init.c                                                   |  1    |
+| rb_cfg_Config\rb_cfgr_ConfigRom\rb_cfrs_ConfigRomSystemSW\rb_dioc_InputOutputControlByIdentifier_RomCfg.c  |  1    |
+| rb_ca_CoreAssets\rb_coms_ComStack\Nm\src\Nm_CoordReadyToSleepIndication.c                                  |  1    |
+| generated\_headers\Nm_Cfg_SchM.h                                                                           |  1    |
+| rb_cl_CustLib\rb_cd_CustComplexDrivers\rb_sbr_CustSeatBeltReminderMgt\rb_sbr_CustSeatBeltReminder.c        |  1    |
+| rb_ca_CoreAssets\rb_coms_ComStack\CanNm\src\CanNm_SetSleepReadyBit.c                                       |  1    |
+| rb_ca_CoreAssets\rb_sys_SystemServices\rb_syc_SysConfig\rb_sycc_SysConfCs.c                                |  1    |
+| rb_cfg_Config\rb_cfga_ConfigAutosar\rb_cfga_AutosarRom\Nm_Cfg.c                                            |  1    |
+| rb_ca_CoreAssets\rb_sys_SystemServices\ComM\src\ComM_LChannelMainFunction.c                                |  1    |
+| rb_ca_CoreAssets\rb_sys_SystemServices\ComM\src\ComM.c                                                     |  1    |
+| generated\_headers\rb_co_CrashOutputOverrideOptions_Cfg.h                                                  |  1    |
+| rb_cfg_Config\rb_cfga_ConfigAutosar\rb_cfga_AutosarRom\BswM_Cfg_AC.c                                       |  1    |
+| generated\_headers\CanNm_Cfg_SchM.h                                                                        |  1    |
+| rb_ca_CoreAssets\rb_sys_SystemServices\rb_blif_BootLoaderInterface\rb_blif_BootLoaderInterfaceSimplified.c |  1    |
+| rb_ca_CoreAssets\rb_sys_SystemServices\rb_dcs_DataCollectorSystem\rb_dcdd_DynamicDataSamplerInterface.c    |  1    |
+| rb_ca_CoreAssets\rb_coms_ComStack\Nm\src\Nm_CoordReadyToSleepCancellation.c                                |  1    |
+| rb_ca_CoreAssets\rb_sys_SystemServices\Dem\src\main\Dem_OperationCycle.c                                   |  1    |
+| rb_ca_CoreAssets\rb_cry_CryptoStack\Cpl\src\Cpl_Random.c                                                   |  1    |
+| rb_ca_CoreAssets\rb_sys_SystemServices\rb_dcs_DataCollectorSystem\rb_dcdd_DynamicDataSampler.c             |  1    |
+| generated\_headers\CanNm.h                                                                                 |  1    |
+| rb_ca_CoreAssets\rb_coms_ComStack\rb_ci_ComInterface\rb_cci_CanInterface.c                                 |  1    |
+| generated\_headers\rb_aidr_Interface.h                                                                     |  1    |
+| rb_cfg_Config\rb_cfge_ConfigEe\rb_cfes_ConfigEeSystemSW\rb_cfge_NvmInitValues_EeCfg.c                      |  1    |
+| rb_ca_CoreAssets\rb_sys_SystemServices\Dem\src\event\Dem_EventFHandling.c                                  |  1    |
+| rb_ca_CoreAssets\rb_cry_CryptoStack\Cpl\src\Cpl_Certificate.c                                              |  1    |
+
+47 files in total
+
+Single file statistic
+=====================
+generated\_headers\CanNm.h (number of warnings: 1)
+
+| Line | Col | ID    | Description                                                                 |
++------+-----+-------+-----------------------------------------------------------------------------+
+| 244  | 6   | 193-D | zero used for undefined preprocessing identifier "CANNM_ECUC_RB_RTE_IN_USE" |
++------+-----+-------+-----------------------------------------------------------------------------+
+
+generated\_headers\CanNm_Cfg_SchM.h (number of warnings: 1)
+
+| Line | Col | ID    | Description                                                                 |
++------+-----+-------+-----------------------------------------------------------------------------+
+| 44   | 6   | 193-D | zero used for undefined preprocessing identifier "CANNM_ECUC_RB_RTE_IN_USE" |
++------+-----+-------+-----------------------------------------------------------------------------+
+
+generated\_headers\CanNm_Inl.h (number of warnings: 4)
+
+| Line | Col | ID    | Description                                                                       |
++------+-----+-------+-----------------------------------------------------------------------------------+
+| 1153 | 6   | 193-D | zero used for undefined preprocessing identifier "CANNM_COORDINATOR_SYNC_SUPPORT" |
+|  219 | 6   | 193-D | zero used for undefined preprocessing identifier "CANNM_COORDINATOR_SYNC_SUPPORT" |
+|  226 | 6   | 193-D | zero used for undefined preprocessing identifier "CANNM_COORDINATOR_SYNC_SUPPORT" |
+|  262 | 6   | 193-D | zero used for undefined preprocessing identifier "CANNM_COORDINATOR_SYNC_SUPPORT" |
++------+-----+-------+-----------------------------------------------------------------------------------+
+
+generated\_headers\CanNm_Prv.h (number of warnings: 2)
+
+| Line | Col | ID    | Description                                                                       |
++------+-----+-------+-----------------------------------------------------------------------------------+
+| 330  | 6   | 193-D | zero used for undefined preprocessing identifier "CANNM_COORDINATOR_SYNC_SUPPORT" |
+| 347  | 6   | 193-D | zero used for undefined preprocessing identifier "CANNM_COORDINATOR_SYNC_SUPPORT" |
++------+-----+-------+-----------------------------------------------------------------------------------+
+
+generated\_headers\Nm.h (number of warnings: 2)
+
+| Line | Col | ID    | Description                                                                            |
++------+-----+-------+----------------------------------------------------------------------------------------+
+| 143  | 5   | 193-D | zero used for undefined preprocessing identifier "NM_ECUC_RB_RTE_IN_USE"               |
+| 460  | 5   | 193-D | zero used for undefined preprocessing identifier "NM_COORDINATOR_SYNC_SUPPORT_ENABLED" |
++------+-----+-------+----------------------------------------------------------------------------------------+
+
+generated\_headers\Nm_Cfg_SchM.h (number of warnings: 1)
+
+| Line | Col | ID    | Description                                                              |
++------+-----+-------+--------------------------------------------------------------------------+
+| 34   | 7   | 193-D | zero used for undefined preprocessing identifier "NM_ECUC_RB_RTE_IN_USE" |
++------+-----+-------+--------------------------------------------------------------------------+
+
+generated\_headers\Rte_Dcm_Type.h (number of warnings: 2)
+
+| Line | Col | ID    | Description                                                                   |
++------+-----+-------+-------------------------------------------------------------------------------+
+| 15   | 35  | 193-D | zero used for undefined preprocessing identifier "DCM_CFG_OFF"                |
+| 15   |  5  | 193-D | zero used for undefined preprocessing identifier "DCM_CFG_RTESUPPORT_ENABLED" |
++------+-----+-------+-------------------------------------------------------------------------------+
+
+generated\_headers\nm.h (number of warnings: 2)
+
+| Line | Col | ID    | Description                                                                            |
++------+-----+-------+----------------------------------------------------------------------------------------+
+| 143  | 5   | 193-D | zero used for undefined preprocessing identifier "NM_ECUC_RB_RTE_IN_USE"               |
+| 460  | 5   | 193-D | zero used for undefined preprocessing identifier "NM_COORDINATOR_SYNC_SUPPORT_ENABLED" |
++------+-----+-------+----------------------------------------------------------------------------------------+
+
+generated\_headers\rb_aidr_Interface.h (number of warnings: 1)
+
+| Line | Col | ID    | Description                                                                   |
++------+-----+-------+-------------------------------------------------------------------------------+
+| 303  | 6   | 193-D | zero used for undefined preprocessing identifier "RB_aidr_OptRollStatAlgo_cs" |
++------+-----+-------+-------------------------------------------------------------------------------+
+
+generated\_headers\rb_co_CrashOutputOverrideOptions_Cfg.h (number of warnings: 1)
+
+| Line | Col | ID  | Description                   |
++------+-----+-----+-------------------------------+
+| 12   | 1   | 9-D | nested comment is not allowed |
++------+-----+-----+-------------------------------+
+
+generated\_headers\rb_ib_inbox.h (number of warnings: 2)
+
+| Line | Col | ID     | Description                                                 |
++------+-----+--------+-------------------------------------------------------------+
+| 0    | 0   | 0-D    | warning Inbox header files used for compilation             |
+| 4    | 2   | 1105-D | #warning directive: Inbox header files used for compilation |
++------+-----+--------+-------------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_alg_Algo\rb_dsa_DataSamplerAlgo\rb_dsa_DataSamplerAlgoRose.c (number of warnings: 2)
+
+| Line | Col | ID    | Description                                                                            |
++------+-----+-------+----------------------------------------------------------------------------------------+
+| 599  | 20  | 177-D | function "rb_dsa_RoseStartResetPlausiDataSamplingRT" was declared but never referenced |
+| 715  | 20  | 177-D | function "rb_dsa_RoseTrgFFDataSamplingRT" was declared but never referenced            |
++------+-----+-------+----------------------------------------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_alg_Algo\rb_rma_ReleaseMatrix\rb_rmai_ReleaseMatrixInterface.c (number of warnings: 2)
+
+| Line | Col | ID    | Description                                                   |
++------+-----+-------+---------------------------------------------------------------+
+| 137  | 10  | 177-D | variable "OPSFPState_bo" was declared but never referenced    |
+| 139  | 34  | 177-D | variable "OpsfpExtState_en" was declared but never referenced |
++------+-----+-------+---------------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_alg_Algo\rb_sia_SensorInterfaceAlgo\rb_sia7_SensorInterfaceAlgoSmi7xx.c (number of warnings: 4)
+
+| Line | Col | ID    | Description                                                 |
++------+-----+-------+-------------------------------------------------------------+
+| 451  | 26  | 550-D | variable "RollRateChannelSensor_en" was set but never used  |
+| 452  | 26  | 550-D | variable "LowgYChannelSensor_en" was set but never used     |
+| 453  | 26  | 550-D | variable "LowgZChannelSensor_en" was set but never used     |
+| 454  | 26  | 550-D | variable "PitchRateChannelSensor_en" was set but never used |
++------+-----+-------+-------------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_cd_ComplexDrivers\rb_co_CrashOutput\rb_cotm_InfoMgt.c (number of warnings: 3)
+
+| Line | Col | ID    | Description                                                          |
++------+-----+-------+----------------------------------------------------------------------+
+| 271  | 13  | 177-D | function "rb_co_CaptureSeverityRT" was declared but never referenced |
+| 308  | 13  | 177-D | function "rb_co_CaptureDeltaVRT" was declared but never referenced   |
+| 396  | 13  | 177-D | function "rb_co_CaptureEDPDataRT" was declared but never referenced  |
++------+-----+-------+----------------------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_cd_ComplexDrivers\rb_csem_CentralSensorMgt\rb_cs7m_Smi7Manager.c (number of warnings: 2)
+
+| Line | Col | ID    | Description                                                                     |
++------+-----+-------+---------------------------------------------------------------------------------+
+| 5342 | 10  | 177-D | variable "ZLgOffsetCheckRequired_bo" was declared but never referenced          |
+| 5901 | 16  | 177-D | function "rb_cs7m_RelativeOffsetCheck3Inputs" was declared but never referenced |
++------+-----+-------+---------------------------------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_coms_ComStack\CanNm\src\CanNm.c (number of warnings: 3)
+
+| Line | Col | ID    | Description                                                                       |
++------+-----+-------+-----------------------------------------------------------------------------------+
+| 121  | 50  | 193-D | zero used for undefined preprocessing identifier "CANNM_COORDINATOR_SYNC_SUPPORT" |
+| 172  | 50  | 193-D | zero used for undefined preprocessing identifier "CANNM_COORDINATOR_SYNC_SUPPORT" |
+| 177  |  6  | 193-D | zero used for undefined preprocessing identifier "CANNM_COORDINATOR_SYNC_SUPPORT" |
++------+-----+-------+-----------------------------------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_coms_ComStack\CanNm\src\CanNm_Init.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                                                                       |
++------+-----+-------+-----------------------------------------------------------------------------------+
+| 198  | 6   | 193-D | zero used for undefined preprocessing identifier "CANNM_COORDINATOR_SYNC_SUPPORT" |
++------+-----+-------+-----------------------------------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_coms_ComStack\CanNm\src\CanNm_SetSleepReadyBit.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                                                                       |
++------+-----+-------+-----------------------------------------------------------------------------------+
+| 43   | 6   | 193-D | zero used for undefined preprocessing identifier "CANNM_COORDINATOR_SYNC_SUPPORT" |
++------+-----+-------+-----------------------------------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_coms_ComStack\Dcm\src\DcmDsp\DcmDspUds\DcmDspUds_Wdbi.c (number of warnings: 3)
+
+| Line | Col | ID    | Description                                      |
++------+-----+-------+--------------------------------------------------+
+| 197  | 49  | 550-D | variable "dataNegResCode" was set but never used |
+| 198  | 45  | 550-D | variable "ptrWriteFnc" was set but never used    |
+| 701  | 36  | 550-D | variable "ptrSigConfig" was set but never used   |
++------+-----+-------+--------------------------------------------------+
+
+rb_ca_CoreAssets\rb_coms_ComStack\Nm\src\Nm_CoordReadyToSleepCancellation.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                                                                            |
++------+-----+-------+----------------------------------------------------------------------------------------+
+| 54   | 6   | 193-D | zero used for undefined preprocessing identifier "NM_COORDINATOR_SYNC_SUPPORT_ENABLED" |
++------+-----+-------+----------------------------------------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_coms_ComStack\Nm\src\Nm_CoordReadyToSleepIndication.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                                                                            |
++------+-----+-------+----------------------------------------------------------------------------------------+
+| 54   | 6   | 193-D | zero used for undefined preprocessing identifier "NM_COORDINATOR_SYNC_SUPPORT_ENABLED" |
++------+-----+-------+----------------------------------------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_coms_ComStack\rb_ci_ComInterface\rb_cci_CanInterface.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                                                       |
++------+-----+-------+-------------------------------------------------------------------+
+| 73   | 15  | 177-D | variable "rb_cci_CyclicTask_u8" was declared but never referenced |
++------+-----+-------+-------------------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_coms_ComStack\rb_ci_ComInterface\rb_ci_ComInterface.c (number of warnings: 6)
+
+| Line | Col | ID    | Description                                                                               |
++------+-----+-------+-------------------------------------------------------------------------------------------+
+| 210  | 47  | 193-D | zero used for undefined preprocessing identifier "RB_cdp_2msRxProcessingSwitchVal_cs"     |
+| 210  |  5  | 193-D | zero used for undefined preprocessing identifier "RB_cdp_ComAppRxProcessingSlotSwitch_cs" |
+| 259  | 47  | 193-D | zero used for undefined preprocessing identifier "RB_cdp_5msRxProcessingSwitchVal_cs"     |
+| 259  |  5  | 193-D | zero used for undefined preprocessing identifier "RB_cdp_ComAppRxProcessingSlotSwitch_cs" |
+| 410  | 47  | 193-D | zero used for undefined preprocessing identifier "RB_cdp_10msRxProcessingSwitchVal_cs"    |
+| 410  |  5  | 193-D | zero used for undefined preprocessing identifier "RB_cdp_ComAppRxProcessingSlotSwitch_cs" |
++------+-----+-------+-------------------------------------------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_cry_CryptoStack\Cpl\src\Cpl_Certificate.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                                |
++------+-----+-------+--------------------------------------------+
+| 185  | 22  | 191-D | type qualifier is meaningless on cast type |
++------+-----+-------+--------------------------------------------+
+
+rb_ca_CoreAssets\rb_cry_CryptoStack\Cpl\src\Cpl_Hash.c (number of warnings: 2)
+
+| Line | Col | ID    | Description                                |
++------+-----+-------+--------------------------------------------+
+| 193  | 110 | 191-D | type qualifier is meaningless on cast type |
+|  76  | 109 | 191-D | type qualifier is meaningless on cast type |
++------+-----+-------+--------------------------------------------+
+
+rb_ca_CoreAssets\rb_cry_CryptoStack\Cpl\src\Cpl_Mac.c (number of warnings: 13)
+
+| Line | Col | ID    | Description                                |
++------+-----+-------+--------------------------------------------+
+| 163  |  34 | 191-D | type qualifier is meaningless on cast type |
+| 194  |  58 | 191-D | type qualifier is meaningless on cast type |
+| 292  |  14 | 191-D | type qualifier is meaningless on cast type |
+| 295  |  96 | 191-D | type qualifier is meaningless on cast type |
+| 301  |  97 | 191-D | type qualifier is meaningless on cast type |
+| 357  | 102 | 191-D | type qualifier is meaningless on cast type |
+| 365  | 102 | 191-D | type qualifier is meaningless on cast type |
+| 440  |  34 | 191-D | type qualifier is meaningless on cast type |
+| 471  |  58 | 191-D | type qualifier is meaningless on cast type |
+| 564  |  10 | 191-D | type qualifier is meaningless on cast type |
+| 567  |  92 | 191-D | type qualifier is meaningless on cast type |
+|  80  | 102 | 191-D | type qualifier is meaningless on cast type |
+|  88  | 102 | 191-D | type qualifier is meaningless on cast type |
++------+-----+-------+--------------------------------------------+
+
+rb_ca_CoreAssets\rb_cry_CryptoStack\Cpl\src\Cpl_Random.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                                |
++------+-----+-------+--------------------------------------------+
+| 75   | 14  | 191-D | type qualifier is meaningless on cast type |
++------+-----+-------+--------------------------------------------+
+
+rb_ca_CoreAssets\rb_cry_CryptoStack\Cpl\src\Cpl_Signature.c (number of warnings: 4)
+
+| Line | Col | ID    | Description                                |
++------+-----+-------+--------------------------------------------+
+| 320  | 34  | 191-D | type qualifier is meaningless on cast type |
+| 331  | 22  | 191-D | type qualifier is meaningless on cast type |
+| 423  | 47  | 191-D | type qualifier is meaningless on cast type |
+|  94  | 22  | 191-D | type qualifier is meaningless on cast type |
++------+-----+-------+--------------------------------------------+
+
+rb_ca_CoreAssets\rb_cry_CryptoStack\Cpl\src\Cpl_Sym.c (number of warnings: 12)
+
+| Line | Col | ID    | Description                                |
++------+-----+-------+--------------------------------------------+
+| 145  |  39 | 191-D | type qualifier is meaningless on cast type |
+| 176  |  62 | 191-D | type qualifier is meaningless on cast type |
+| 263  |  48 | 191-D | type qualifier is meaningless on cast type |
+| 310  | 107 | 191-D | type qualifier is meaningless on cast type |
+| 318  | 110 | 191-D | type qualifier is meaningless on cast type |
+| 327  |  49 | 191-D | type qualifier is meaningless on cast type |
+| 389  |  40 | 191-D | type qualifier is meaningless on cast type |
+| 420  |  62 | 191-D | type qualifier is meaningless on cast type |
+| 511  |  48 | 191-D | type qualifier is meaningless on cast type |
+|  66  | 106 | 191-D | type qualifier is meaningless on cast type |
+|  74  | 110 | 191-D | type qualifier is meaningless on cast type |
+|  83  |  49 | 191-D | type qualifier is meaningless on cast type |
++------+-----+-------+--------------------------------------------+
+
+rb_ca_CoreAssets\rb_cry_CryptoStack\Cpl\src\Cpl_SymBlock.c (number of warnings: 2)
+
+| Line | Col | ID    | Description                                |
++------+-----+-------+--------------------------------------------+
+| 247  | 104 | 191-D | type qualifier is meaningless on cast type |
+|  76  | 104 | 191-D | type qualifier is meaningless on cast type |
++------+-----+-------+--------------------------------------------+
+
+rb_ca_CoreAssets\rb_ds_DiagStack\rb_prod_ProductionDiagnosis\rb_prlf_ProdiagLoginFunc.c (number of warnings: 2)
+
+| Line | Col | ID    | Description                                |
++------+-----+-------+--------------------------------------------+
+| 836  | 128 | 191-D | type qualifier is meaningless on cast type |
+| 836  | 174 | 191-D | type qualifier is meaningless on cast type |
++------+-----+-------+--------------------------------------------+
+
+rb_ca_CoreAssets\rb_mcd_McDrivers\Can\src\Can.c (number of warnings: 3)
+
+| Line | Col | ID    | Description                                                                           |
++------+-----+-------+---------------------------------------------------------------------------------------+
+| 236  | 28  | 167-D | argument of type "TickType *" is incompatible with parameter of type "Can_TickType *" |
+| 251  | 35  | 167-D | argument of type "TickType *" is incompatible with parameter of type "Can_TickType *" |
+|  86  | 16  | 550-D | variable "Can_DriverState_MP" was set but never used                                  |
++------+-----+-------+---------------------------------------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_sys_SystemServices\ComM\src\ComM.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                                               |
++------+-----+-------+-----------------------------------------------------------+
+| 924  | 39  | 177-D | function "ComM_LGetbit" was declared but never referenced |
++------+-----+-------+-----------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_sys_SystemServices\ComM\src\ComM_LChannelMainFunction.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                                                               |
++------+-----+-------+---------------------------------------------------------------------------+
+| 924  | 45  | 177-D | function "ComM_SilentCom_StateHandling" was declared but never referenced |
++------+-----+-------+---------------------------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_sys_SystemServices\Dem\src\event\Dem_EventFHandling.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                             |
++------+-----+-------+-----------------------------------------+
+| 553  | 19  | 550-D | variable "dtcId" was set but never used |
++------+-----+-------+-----------------------------------------+
+
+rb_ca_CoreAssets\rb_sys_SystemServices\Dem\src\main\Dem_OperationCycle.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                                                |
++------+-----+-------+------------------------------------------------------------+
+| 193  | 28  | 550-D | variable "opCycleQualifiedTriggers" was set but never used |
++------+-----+-------+------------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_sys_SystemServices\rb_blif_BootLoaderInterface\rb_blif_BootLoaderInterfaceSimplified.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                                             |
++------+-----+-------+---------------------------------------------------------+
+| 171  | 14  | 550-D | variable "rb_blif_NeramFlag_au8" was set but never used |
++------+-----+-------+---------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_sys_SystemServices\rb_dcs_DataCollectorSystem\rb_dcdd_DynamicDataSampler.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                                        |
++------+-----+-------+----------------------------------------------------+
+| 1227 | 31  | 186-D | pointless comparison of unsigned integer with zero |
++------+-----+-------+----------------------------------------------------+
+
+rb_ca_CoreAssets\rb_sys_SystemServices\rb_dcs_DataCollectorSystem\rb_dcdd_DynamicDataSamplerInterface.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                                                                   |
++------+-----+-------+-------------------------------------------------------------------------------+
+| 4055 | 20  | 177-D | function "rb_dcdd_ProcessCentralSensorData" was declared but never referenced |
++------+-----+-------+-------------------------------------------------------------------------------+
+
+rb_ca_CoreAssets\rb_sys_SystemServices\rb_syc_SysConfig\rb_sycc_SysConfCs.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                                           |
++------+-----+-------+-------------------------------------------------------+
+| 2622 | 30  | 550-D | variable "ZPhysicalChannel_en" was set but never used |
++------+-----+-------+-------------------------------------------------------+
+
+rb_cfg_Config\rb_cfga_ConfigAutosar\rb_cfga_AutosarRom\BswM_Cfg_AC.c (number of warnings: 1)
+
+| Line | Col | ID    | Description              |
++------+-----+-------+--------------------------+
+| 629  | 2   | 174-D | expression has no effect |
++------+-----+-------+--------------------------+
+
+rb_cfg_Config\rb_cfga_ConfigAutosar\rb_cfga_AutosarRom\Nm_Cfg.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                             |
++------+-----+-------+-----------------------------------------+
+| 247  | 9   | 188-D | enumerated type mixed with another type |
++------+-----+-------+-----------------------------------------+
+
+rb_cfg_Config\rb_cfgd_ConfigDefinitions\rb_cfgc_ConfigCDG\Diagnosis\Det_ErrorSaver.c (number of warnings: 8)
+
+| Line | Col | ID    | Description                                              |
++------+-----+-------+----------------------------------------------------------+
+| 25   | 20  | 550-D | variable "Det_FirstModuleId_u16" was set but never used  |
+| 26   | 20  | 550-D | variable "Det_FirstInstanceId_u8" was set but never used |
+| 27   | 20  | 550-D | variable "Det_FirstApiId_u8" was set but never used      |
+| 28   | 20  | 550-D | variable "Det_FirstErrorId_u8" was set but never used    |
+| 31   | 20  | 550-D | variable "Det_LastModuleId_u16" was set but never used   |
+| 32   | 20  | 550-D | variable "Det_LastInstanceId_u8" was set but never used  |
+| 33   | 20  | 550-D | variable "Det_LastApiId_u8" was set but never used       |
+| 34   | 20  | 550-D | variable "Det_LastErrorId_u8" was set but never used     |
++------+-----+-------+----------------------------------------------------------+
+
+rb_cfg_Config\rb_cfge_ConfigEe\rb_cfes_ConfigEeSystemSW\rb_cfge_NvmInitValues_EeCfg.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                              |
++------+-----+-------+------------------------------------------+
+| 177  | 14  | 260-D | explicit type is missing ("int" assumed) |
++------+-----+-------+------------------------------------------+
+
+rb_cfg_Config\rb_cfgr_ConfigRom\rb_cfrs_ConfigRomSystemSW\rb_dioc_InputOutputControlByIdentifier_RomCfg.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                                                                                                                                                                 |
++------+-----+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 65   | 365 | 144-D | a value of type "Std_ReturnType (*)(Dcm_OpStatusType, Dcm_NegativeResponseCodeType *)" cannot be used to initialize an entity of type "rb_dsm_IOCBIFuncPointerRtnCtrltoECU" |
++------+-----+-------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+rb_cl_CustLib\rb_cd_CustComplexDrivers\rb_sbr_CustSeatBeltReminderMgt\rb_sbr_CustSeatBeltReminder.c (number of warnings: 1)
+
+| Line | Col | ID    | Description                             |
++------+-----+-------+-----------------------------------------+
+| 954  | 33  | 188-D | enumerated type mixed with another type |
++------+-----+-------+-----------------------------------------+
+

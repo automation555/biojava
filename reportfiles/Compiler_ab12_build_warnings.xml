@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<compilerwarnings>
+	<file name="generated\_headers\DcmAppl.h">
+		<warning line="147" col="5" id="193-D">zero used for undefined preprocessing identifier "DCM_CFG_NR_CONF_ENABLED"</warning>
+	</file>
+	<file name="generated\_headers\Dcm_Cfg_DspUds.h">
+		<warning line="152" col="29" id="193-D">zero used for undefined preprocessing identifier "DCM_CFG_OFF"</warning>
+		<warning line="152" col="6" id="193-D">zero used for undefined preprocessing identifier "DCM_CFG_KWP_ENABLED"</warning>
+	</file>
+	<file name="generated\_headers\Dcm_Dsd_Verification.h">
+		<warning line="171" col="34" id="550-D">variable "FirstIndicationNRC" was set but never used</warning>
+	</file>
+	<file name="generated\_headers\Dem_MemMap.h">
+		<warning line="54" col="3" id="1512-D">incorrect section #pragma: cannot rename a section to another standard section</warning>
+	</file>
+	<file name="generated\_headers\Rte_Dcm_Type.h">
+		<warning line="15" col="35" id="193-D">zero used for undefined preprocessing identifier "DCM_CFG_OFF"</warning>
+		<warning line="15" col="5" id="193-D">zero used for undefined preprocessing identifier "DCM_CFG_RTESUPPORT_ENABLED"</warning>
+		<warning line="352" col="44" id="193-D">zero used for undefined preprocessing identifier "DCM_CFG_OFF"</warning>
+		<warning line="352" col="6" id="193-D">zero used for undefined preprocessing identifier "DCM_CFG_DSP_AUTHENTICATION_ENABLED"</warning>
+	</file>
+	<file name="generated\_headers\rb_dsm_DiagnosticServiceMgt_Cfg.h">
+		<warning line="120" col="9" id="47-D">incompatible redefinition of macro "DCMAPPL_SUPPRESS_NRC" (declared at line 46 of "generated\_headers\DcmAppl.h")</warning>
+	</file>
+	<file name="generated\_headers\rb_ib_inbox.h">
+		<warning line="0" col="0" id="0-D">warning Inbox header files used for compilation</warning>
+		<warning line="4" col="2" id="1105-D">#warning directive: Inbox header files used for compilation</warning>
+	</file>
+	<file name="generated\_headers\rb_tim_TimerServices.h">
+		<warning line="6" col="4" id="1105-D">#warning directive: Included legacy header 'rb_tim_TimerServices' - please update to 'rb_tim_TimerServices_Interfaces'</warning>
+	</file>
+	<file name="generated\_headers\rb_tim_pwmDriver.h">
+		<warning line="4" col="2" id="1105-D">#warning directive: Included legacy header 'rb_tim_pwmDriver' - please update to 'rb_tim_TimerServices_Interfaces'</warning>
+	</file>
+	<file name="rb_ca_CoreAssets\rb_alg_Algo\rb_dsa_DataSamplerAlgo\rb_dsa_DataSamplerAlgoGen.c">
+		<warning line="233" col="6" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_AlgoEdpVectorInfo_cs"</warning>
+		<warning line="237" col="40" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_RearDvLockTime_cs"</warning>
+		<warning line="237" col="6" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_FrontDvLockTime_cs"</warning>
+		<warning line="237" col="73" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_SideDvLockTime_cs"</warning>
+		<warning line="241" col="38" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_8kphResetTime_cs"</warning>
+		<warning line="241" col="6" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_8kphStartTime_cs"</warning>
+		<warning line="251" col="6" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_AlgoEdpVectorInfo_cs"</warning>
+		<warning line="255" col="40" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_RearDvLockTime_cs"</warning>
+		<warning line="255" col="6" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_FrontDvLockTime_cs"</warning>
+		<warning line="255" col="73" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_SideDvLockTime_cs"</warning>
+		<warning line="259" col="38" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_8kphResetTime_cs"</warning>
+		<warning line="259" col="6" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_8kphStartTime_cs"</warning>
+		<warning line="483" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_8kphStartTime_cs"</warning>
+		<warning line="501" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_8kphResetTime_cs"</warning>
+		<warning line="519" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_AlgoEdpVectorInfo_cs"</warning>
+		<warning line="540" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_FrontDvLockTime_cs"</warning>
+		<warning line="558" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_RearDvLockTime_cs"</warning>
+		<warning line="576" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_SideDvLockTime_cs"</warning>
+		<warning line="604" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_AlgoEdpVectorInfo_cs"</warning>
+		<warning line="608" col="41" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_RearDvLockTime_cs"</warning>
+		<warning line="608" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_FrontDvLockTime_cs"</warning>
+		<warning line="608" col="74" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_SideDvLockTime_cs"</warning>
+		<warning line="612" col="39" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_8kphResetTime_cs"</warning>
+		<warning line="612" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_8kphStartTime_cs"</warning>
+		<warning line="786" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_8kphStartTime_cs"</warning>
+		<warning line="804" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_8kphResetTime_cs"</warning>
+		<warning line="822" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_AlgoEdpVectorInfo_cs"</warning>
+		<warning line="843" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_FrontDvLockTime_cs"</warning>
+		<warning line="861" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_RearDvLockTime_cs"</warning>
+		<warning line="879" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_SideDvLockTime_cs"</warning>
+		<warning line="907" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_AlgoEdpVectorInfo_cs"</warning>
+		<warning line="911" col="41" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_RearDvLockTime_cs"</warning>
+		<warning line="911" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_FrontDvLockTime_cs"</warning>
+		<warning line="911" col="74" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_SideDvLockTime_cs"</warning>
+		<warning line="915" col="39" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_8kphResetTime_cs"</warning>
+		<warning line="915" col="7" id="193-D">zero used for undefined preprocessing identifier "RB_dsa_8kphStartTime_cs"</warning>
+	</file>
+	<file name="rb_ca_CoreAssets\rb_alg_Algo\rb_dsa_DataSamplerAlgo\rb_dsa_DataSamplerAlgoSide.c">
+		<warning line="1157" col="8" id="177-D">variable "Index_u8" was declared but never referenced</warning>
+		<warning line="1215" col="9" id="1721-D">identifier shadows variable "Index_u8" (declared at line 1157)</warning>
+		<warning line="1316" col="9" id="1721-D">identifier shadows variable "Index_u8" (declared at line 1157)</warning>
+	</file>
+	<file name="rb_ca_CoreAssets\rb_alg_Algo\rb_evm_EventManager\rb_evm_EventManager.c">
+		<warning line="3631" col="75" id="193-D">zero used for undefined preprocessing identifier "RB_evm_25kphFrontDvLock_cs"</warning>
+		<warning line="3647" col="76" id="193-D">zero used for undefined preprocessing identifier "RB_evm_25kphRearDvLock_cs"</warning>
+		<warning line="3663" col="74" id="193-D">zero used for undefined preprocessing identifier "RB_evm_25kphSideDvLock_cs"</warning>
+	</file>
+	<file name="rb_ca_CoreAssets\rb_coms_ComStack\rb_CanStack_CanIf\CanIf\src\CanIf_Transmit.c">
+		<warning line="184" col="20" id="177-D">variable "ULConfirmationRetVal_en" was declared but never referenced</warning>
+	</file>
+	<file name="rb_ca_CoreAssets\rb_coms_ComStack\rb_CanStack_CanNm\CanNm\src\CanNm_Init.c">
+		<warning line="71" col="11" id="177-D">variable "index_u8" was declared but never referenced</warning>
+	</file>
+	<file name="rb_ca_CoreAssets\rb_coms_ComStack\rb_ComServices_Com\Com\src\Com_ProcessSignalGroup.c">
+		<warning line="358" col="34" id="550-D">variable "idRxMainFunc_uo" was set but never used</warning>
+	</file>
+	<file name="rb_ca_CoreAssets\rb_coms_ComStack\rb_Diagnosis_Dcm\Dcm\src\Dsl\Dcm_Transmission\Dcm_Dsl_CancelTransmission.c">
+		<warning line="22" col="27" id="550-D">variable "dsdState" was set but never used</warning>
+	</file>
+	<file name="rb_ca_CoreAssets\rb_coms_ComStack\rb_Diagnosis_Dcm\Dcm\src\Dsp\Uds\DcmDspUds_Cdtcs.c">
+		<warning line="51" col="21" id="177-D">variable "Dcm_CdtcsExpectedTotalLength_u16" was declared but never referenced</warning>
+		<warning line="57" col="21" id="177-D">variable "Dcm_CdtcsValidRecord_u32" was declared but never referenced</warning>
+	</file>
+	<file name="rb_ca_CoreAssets\rb_coms_ComStack\rb_Diagnosis_Dcm\Dcm\src\Dsp\Uds\DcmDspUds_Wdbi.c">
+		<warning line="735" col="36" id="550-D">variable "ptrSigConfig" was set but never used</warning>
+	</file>
+	<file name="rb_ca_CoreAssets\rb_ds_DiagStack\rb_dsm_DiagnosticServiceMgt\rb_drc_RoutineControl\rb_drc_RoutineControl.c">
+		<warning line="439" col="47" id="42-D">operand types are incompatible ("uint8" and "void *")</warning>
+		<warning line="450" col="68" id="167-D">argument of type "uint8" is incompatible with parameter of type "const uint8 *"</warning>
+		<warning line="455" col="67" id="167-D">argument of type "uint8" is incompatible with parameter of type "const uint8 *"</warning>
+	</file>
+	<file name="rb_ca_CoreAssets\rb_ds_DiagStack\rb_dsm_DiagnosticServiceMgt\rb_dsm_DSMInterface\rb_dsm_DCMApplCommon.c">
+		<warning line="404" col="122" id="167-D">argument of type "Dcm_ProtocolType" is incompatible with parameter of type "Dcm_MsgContextType *"</warning>
+	</file>
+	<file name="rb_ca_CoreAssets\rb_mems_MemoryStack\rb_MemLib\rba_MemLib\src\rba_MemLib_Sync.c">
+		<warning line="115" col="5" id="174-D">expression has no effect</warning>
+		<warning line="119" col="5" id="174-D">expression has no effect</warning>
+		<warning line="140" col="5" id="174-D">expression has no effect</warning>
+		<warning line="144" col="5" id="174-D">expression has no effect</warning>
+		<warning line="162" col="5" id="174-D">expression has no effect</warning>
+		<warning line="59" col="5" id="174-D">expression has no effect</warning>
+		<warning line="65" col="5" id="174-D">expression has no effect</warning>
+		<warning line="89" col="5" id="174-D">expression has no effect</warning>
+		<warning line="93" col="5" id="174-D">expression has no effect</warning>
+	</file>
+	<file name="rb_ca_CoreAssets\rb_sys_SystemServices\rb_Diagnosis_Dem\Dem\src\event\Dem_EventFHandling.c">
+		<warning line="185" col="8" id="550-D">variable "ApiId" was set but never used</warning>
+		<warning line="575" col="11" id="550-D">variable "ApiId" was set but never used</warning>
+	</file>
+	<file name="rb_ca_CoreAssets\rb_sys_SystemServices\rb_Diagnosis_Dem\Dem\src\main\Dem_OperationCycle.c">
+		<warning line="196" col="28" id="550-D">variable "opCycleQualifiedTriggers" was set but never used</warning>
+	</file>
+	<file name="rb_ca_CoreAssets\rb_sys_SystemServices\rb_otaa_OtaAdapter\rb_otap_OtaProjAdapter.c">
+		<warning line="103" col="16" id="177-D">variable "rb_otap_KeyLoaded_bo" was declared but never referenced</warning>
+		<warning line="111" col="36" id="177-D">variable "rb_otap_Session_u32" was declared but never referenced</warning>
+		<warning line="116" col="32" id="177-D">variable "rb_otap_WriteJobHandle_u32" was declared but never referenced</warning>
+	</file>
+	<file name="rb_cfg_Config\rb_cfga_ConfigAutosar\rb_cfga_AutosarRom\CanIf_PBcfg.c">
+		<warning line="347" col="113" id="144-D">a value of type "void (*)(PduIdType)" cannot be used to initialize an entity of type "void (*)(PduIdType, Std_ReturnType)"</warning>
+	</file>
+	<file name="rb_cfg_Config\rb_cfga_ConfigAutosar\rb_cfga_AutosarRom\Dcm_Lcfg_DspUds.c">
+		<warning line="193" col="20" id="177-D">variable "Dcm_Dsld_supported_security_acu8" was declared but never referenced</warning>
+	</file>
+	<file name="rb_cfg_Config\rb_cfga_ConfigAutosar\rb_cfga_AutosarRom\LinIf_PBcfg.c">
+		<warning line="384" col="7" id="144-D">a value of type "void (*)(PduIdType)" cannot be used to initialize an entity of type "void (*)(PduIdType, Std_ReturnType)"</warning>
+	</file>
+	<file name="rb_cfg_Config\rb_cfgd_ConfigDefinitions\rb_cfgc_ConfigCDG\Comscl_cfg\ComScl_Appl_Stubs.c">
+		<warning line="1069" col="9" id="1721-D">identifier shadows function "index" (declared at line 124 of "generated\_headers\string.h")</warning>
+		<warning line="1090" col="9" id="1721-D">identifier shadows function "index" (declared at line 124 of "generated\_headers\string.h")</warning>
+		<warning line="1118" col="9" id="1721-D">identifier shadows function "index" (declared at line 124 of "generated\_headers\string.h")</warning>
+	</file>
+	<file name="rb_cfg_Config\rb_cfgd_ConfigDefinitions\rb_cfgc_ConfigCDG\OTA\rba_OtaCore_Cfg_Blocks.c">
+		<warning line="34" col="33" id="188-D">enumerated type mixed with another type</warning>
+	</file>
+	<file name="rb_cfg_Config\rb_cfgi_ConfigImplementation\rb_cfis_ConfigImplSystemSW\rb_blif_BootLoaderInterfaceSimplified_Cfg.c">
+		<warning line="75" col="76" id="1544-D">incompatibility associated with redeclaration of variable "rb_blif_ProgramPrimitivedata_cnvmst": data type differs from earlier declaration's unspecified type</warning>
+	</file>
+	<file name="rb_cfg_Config\rb_cfgi_ConfigImplementation\rb_cfis_ConfigImplSystemSW\rb_blif_PKISecurityInfo_Cfg.c">
+		<warning line="52" col="64" id="1544-D">incompatibility associated with redeclaration of variable "rb_blif_ApplicationSWSecRef_cst": data type differs from earlier declaration's unspecified type</warning>
+		<warning line="69" col="72" id="1544-D">incompatibility associated with redeclaration of variable "rb_blif_ApplicationSWBlockPKIstruct_cst": data type differs from earlier declaration's unspecified type</warning>
+	</file>
+	<file name="rb_cfg_Config\rb_cfgi_ConfigImplementation\rb_cfis_ConfigImplSystemSW\rb_otaa_OtaAdaptor_Cfg.c">
+		<warning line="127" col="59" id="1544-D">incompatibility associated with redeclaration of variable "rba_OtaCore_NvmItem_OtaFlag": data type differs from earlier declaration's unspecified type</warning>
+		<warning line="134" col="65" id="1544-D">incompatibility associated with redeclaration of variable "rba_OtaCore_NvmItem_FotaBlockInfo": data type differs from earlier declaration's unspecified type</warning>
+		<warning line="144" col="63" id="1544-D">incompatibility associated with redeclaration of variable "rba_OtaBosch_NvmItem_CampaignId": data type differs from earlier declaration's unspecified type</warning>
+		<warning line="152" col="72" id="1544-D">incompatibility associated with redeclaration of variable "rba_OtaBosch_NvmItem_RollbackProhibition": data type differs from earlier declaration's unspecified type</warning>
+		<warning line="160" col="66" id="1544-D">incompatibility associated with redeclaration of variable "rba_OtaBosch_NvmItem_SequenceState": data type differs from earlier declaration's unspecified type</warning>
+		<warning line="168" col="70" id="1544-D">incompatibility associated with redeclaration of variable "rba_OtaBosch_NvmItem_CurrentBlockIndex": data type differs from earlier declaration's unspecified type</warning>
+		<warning line="176" col="72" id="1544-D">incompatibility associated with redeclaration of variable "rba_OtaBosch_NvmItem_ResumingInformation": data type differs from earlier declaration's unspecified type</warning>
+	</file>
+	<file name="rb_cfg_Config\rb_cfgi_ConfigImplementation\rb_cfis_ConfigImplSystemSW\rb_psem_PeripheralSensorMgt_Cfg.c">
+		<warning line="133" col="64" id="1544-D">incompatibility associated with redeclaration of variable "rb_psem_PsemNvmCfgData_cnvmst": data type differs from earlier declaration's unspecified type</warning>
+		<warning line="175" col="73" id="1544-D">incompatibility associated with redeclaration of variable "rb_psem_PsemNvmCfgInit2Data_cnvmst": data type differs from earlier declaration's unspecified type</warning>
+	</file>
+	<file name="rb_cfg_Config_Common\rb_cfgr_ConfigRom\rb_cfrs_ConfigRomSystemSW\rb_drdi_ReadDataByIdentifier_RomCfg.c">
+		<warning line="87" col="4" id="144-D">a value of type "Std_ReturnType (*)(Dcm_OpStatusType, uint8 *)" cannot be used to initialize an entity of type "rb_dsm_RDBIPagedFuncPointer"</warning>
+	</file>
+	<file name="rb_cl_CustLib\rb_cmag_ComApplicationGenerated\scl\src\ComScl_Appl_Scl_Init.c">
+		<warning line="253" col="12" id="1721-D">identifier shadows function "index" (declared at line 124 of "generated\_headers\string.h")</warning>
+	</file>
+</compilerwarnings>

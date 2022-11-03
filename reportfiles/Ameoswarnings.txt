@@ -1,0 +1,207 @@
+[INFO] Updating existing UMLModel in 'C:/Users/tci2kor/Documents/Sandbox/Normal/INMS/generated'.
+Qt: Untested Windows version 6.2 detected!
+Status: Loading subsystem rb_pj_PrjSpecific
+Status: Locking subsystem rb_pj_PrjSpecific
+Finished: Loading subsystems rb_pj_PrjSpecific(locked) into system UMLModel
+Qt: Untested Windows version 6.2 detected!
+Status: Loading subsystem rb_cfg_Config
+Status: Locking subsystem rb_cfg_Config
+Finished: Loading subsystems rb_cfg_Config(locked) into system UMLModel
+Qt: Untested Windows version 6.2 detected!
+Status: Locking subsystem rb_algc_CustAlgoFunctions
+Status: Locking subsystem rb_util_CustUtility
+Status: Locking subsystem rb_dsm_CustDiagnosticServiceMgt
+Status: Locking subsystem rb_mems_CustMemoryStack
+Status: Locking subsystem rb_sys_CustSystemServices
+Status: Locking subsystem rb_cl_CustLib
+Status: Locking subsystem rb_cd_CustComplexDrivers
+Status: Updating subsystem rb_coms_CustComStack
+Status: Locking subsystem rb_coms_CustComStack
+Status: Updating subsystem rb_cma_CustComApplication
+Rename successful.
+1 object renamed.
+Status: Locking subsystem rb_cma_CustComApplication
+Status: Locking subsystem rb_rmai_CustReleaseMatrix
+zip-File C:/Users/tci2kor/Documents/Sandbox/Normal/INMS/generated/../rb_cl_CustLib/rb_algc_CustAlgoFunctions/rb_evmi_CustEventManager/rb_evmi_CustEventManager_arch.zip not found
+Error: Baseline for subsystem rb_evmi_CustEventManager is missing
+zip-File C:/Users/tci2kor/Documents/Sandbox/Normal/INMS/generated/../rb_cl_CustLib/rb_algc_CustAlgoFunctions/rb_dsai_CustDataSampler/rb_dsai_CustDataSampler_arch.zip not found
+Error: Baseline for subsystem rb_dsai_CustDataSampler is missing
+zip-File C:/Users/tci2kor/Documents/Sandbox/Normal/INMS/generated/../rb_cl_CustLib/rb_algc_CustAlgoFunctions/rb_fcli_CustFclFunctions/rb_fcli_CustFclFunctions_arch.zip not found
+Error: Baseline for subsystem rb_fcli_CustFclFunctions is missing
+Status: Locking subsystem rb_swv_CustConfigurationData
+Status: Locking subsystem rb_deim_CustElectronicIntegrationMode
+Status: Locking subsystem rb_drc_CustRoutineControl
+Status: Locking subsystem rb_dioc_CustInputOutputControlByIdentifier
+Status: Locking subsystem rb_dsm_CustDSMInterface
+Status: Locking subsystem rb_des_CustEchoService
+Status: Locking subsystem rb_dwdi_CustWriteDataByIdentifier
+Status: Locking subsystem rb_drdi_CustReadDataByIdentifier
+Status: Locking subsystem rb_dsa_CustSecurityAccess
+Status: Locking subsystem rb_ddsc_CustDiagnosticSessionControl
+Status: Locking subsystem rb_cmem_CustMemoryMgt
+Status: Locking subsystem rb_csdm_CustSafeDataMgt
+Status: Locking subsystem rb_syc_CustSysConfig
+Status: Locking subsystem rb_ssu_CustSystemStartup
+Status: Locking subsystem rb_br_CustBackgroundRealtime
+Status: Locking subsystem rb_dcs_CustDataCollectorSystem
+Status: Locking subsystem rb_demc_CustFaultMgt
+Status: Locking subsystem rb_swm_CustSwitchMgt
+Status: Updating subsystem rb_csem_CustCentralSensorMgt
+Rename successful.
+1 object renamed.
+Status: Locking subsystem rb_csem_CustCentralSensorMgt
+Status: Updating subsystem rb_wim_CustWarningIndicatorMgt
+Rename successful.
+1 object renamed.
+Rename successful.
+1 object renamed.
+Rename successful.
+1 object renamed.
+Status: Locking subsystem rb_wim_CustWarningIndicatorMgt
+Status: Updating subsystem rb_caod_CustAnalogOutputDriver
+Rename successful.
+1 object renamed.
+Status: Locking subsystem rb_caod_CustAnalogOutputDriver
+Status: Updating subsystem rb_ci_CustComInterface
+Rename successful.
+1 object renamed.
+Rename successful.
+1 object renamed.
+Rename successful.
+1 object renamed.
+Status: Locking subsystem rb_ci_CustComInterface
+Status: Updating subsystem rb_cap_CustFmCanApplication
+Different assignment of Elements to Subsystems
+In Baseline: Type UmlOperation, Name rb_dsm_CustUnlockSecurityOnSessionChange, Sig void, Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlOperation, Name rb_dsm_CustUnlockSecurityOnSessionChange, Sig void, Subsystem rb_dsm_CustDSMInterface
+In Baseline: Type UmlOperation, Name rb_dsm_CustRangeCheck, Sig Data_pu8:const uint8 *, OpStatus_u8:Dcm_OpStatusType, ErrorCode_pu8:Dcm_NegativeResponseCodeType *, Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlOperation, Name rb_dsm_CustRangeCheck, Sig Data_pu8:const uint8 *, OpStatus_u8:Dcm_OpStatusType, ErrorCode_pu8:Dcm_NegativeResponseCodeType *, Subsystem rb_dsm_CustDSMInterface
+In Baseline: Type UmlClass, Name rb_dsm_CustDSMInterface, Sig , Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlClass, Name rb_dsm_CustDSMInterface, Sig , Subsystem rb_dsm_CustDSMInterface
+In Baseline: Type UmlOperation, Name rb_deim_CustIsPreconditionsMet, Sig void, Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlOperation, Name rb_deim_CustIsPreconditionsMet, Sig void, Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlOperation, Name rb_deim_CustGetMsgRcvCount, Sig void, Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlOperation, Name rb_deim_CustGetMsgRcvCount, Sig void, Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlOperation, Name rb_deim_CustResetCounterAndTimer, Sig void, Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlOperation, Name rb_deim_CustResetCounterAndTimer, Sig void, Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlOperation, Name rb_deim_CustGetTimeAndCheckEpired, Sig void, Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlOperation, Name rb_deim_CustGetTimeAndCheckEpired, Sig void, Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlOperation, Name rb_deim_CustGetSignalStatusAndValues, Sig void, Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlOperation, Name rb_deim_CustGetSignalStatusAndValues, Sig void, Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlOperation, Name rb_deim_CustReadNVMBlockStatusInInit, Sig void, Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlOperation, Name rb_deim_CustReadNVMBlockStatusInInit, Sig void, Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlOperation, Name rb_deim_CustCheckResetTypeInit, Sig void, Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlOperation, Name rb_deim_CustCheckResetTypeInit, Sig void, Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlOperation, Name rb_deim_CustWriteInNvm, Sig void, Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlOperation, Name rb_deim_CustWriteInNvm, Sig void, Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlOperation, Name rb_deim_CustBehaviorInEIMode, Sig void, Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlOperation, Name rb_deim_CustBehaviorInEIMode, Sig void, Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlOperation, Name rb_deim_CustExitPreConditions, Sig void, Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlOperation, Name rb_deim_CustExitPreConditions, Sig void, Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlOperation, Name rb_deim_CustEntryPreConditions, Sig void, Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlOperation, Name rb_deim_CustEntryPreConditions, Sig void, Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlOperation, Name rb_deim_CustClrGlobalVehFlt, Sig void, Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlOperation, Name rb_deim_CustClrGlobalVehFlt, Sig void, Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlOperation, Name rb_deim_EntryBehaviourExitInEIMode, Sig void, Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlOperation, Name rb_deim_EntryBehaviourExitInEIMode, Sig void, Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlOperation, Name rb_deim_CustEntryCyclic100ms, Sig void, Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlOperation, Name rb_deim_CustEntryCyclic100ms, Sig void, Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlAttribute, Name rb_deim_NVMVReadValue_bo, Sig , Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlAttribute, Name rb_deim_NVMVReadValue_bo, Sig , Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlAttribute, Name rb_deim_IsEIMModeActive_u8, Sig , Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlAttribute, Name rb_deim_IsEIMModeActive_u8, Sig , Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlClass, Name rb_deim_CustElectronicIntegrationMode, Sig , Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlClass, Name rb_deim_CustElectronicIntegrationMode, Sig , Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlClass, Name rb_dsm_CustDSMInterface, Sig , Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlClass, Name rb_dsm_CustDSMInterface, Sig , Subsystem rb_dsm_CustDSMInterface
+In Baseline: Type UmlClass, Name rb_deim_CustElectronicIntegrationMode, Sig , Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlClass, Name rb_deim_CustElectronicIntegrationMode, Sig , Subsystem rb_deim_CustElectronicIntegrationMode
+In Baseline: Type UmlClass, Name rb_dsm_CustDSMInterface, Sig , Subsystem rb_cap_CustFmCanApplication
+In Ameos-System: Type UmlClass, Name rb_dsm_CustDSMInterface, Sig , Subsystem rb_dsm_CustDSMInterface
+Subsystem Baseline cannot be restored! Please fix the above problems and try again
+Failed: Load Baseline.
+Status: Locking subsystem rb_cap_CustFmCanApplication
+Status: Updating subsystem rb_cap_CustTxCanApplication
+Status: Locking subsystem rb_cap_CustTxCanApplication
+Status: Updating subsystem rb_cap_CustRxCanApplication
+Rename successful.
+1 object renamed.
+Status: Locking subsystem rb_cap_CustRxCanApplication
+Failed: Updating subsystems of system UMLModel
+[INFO] Creating imf-file from new/updated UML model.
+Qt: Untested Windows version 6.2 detected!
+Qt: Untested Windows version 6.2 detected!
+Interface-File (Implementation) : cannot find corresponding Interface ID "1715903" in semantical interface format
+Interface-File (Implementation) : cannot find corresponding Interface ID "1715803" in semantical interface format
+[WARN] Module 'rb_util_Options_Cfg' has no description in UML model!
+[WARN] Module 'rb_syc_SysConfigOptions_Cfg' has no description in UML model!
+[WARN] Module 'rb_rmac_ReleaseMatrix_Cfg' has no description in UML model!
+[WARN] Module 'rb_mem_MemConfigOptions_Cfg' has no description in UML model!
+[WARN] Module 'rb_cap_CustFmCanDataInterface' has no description in UML model!
+[WARN] Module 'dcm' has no description in UML model!
+[WARN] Module 'cantp' has no description in UML model!
+[WARN] Module 'cansm_comm' has no description in UML model!
+[WARN] Module 'canif_types' has no description in UML model!
+[WARN] Module 'Rte_Dem_Type' has no description in UML model!
+[WARN] Module 'NvM_Cfg' has no description in UML model!
+[WARN] Module 'MemIf_Types' has no description in UML model!
+[WARN] Module 'Dem_EventFHandling' has no description in UML model!
+[WARN] Module 'CompilerSwitchesFm' has no description in UML model!
+[WARN] Module 'rb_sbr_SBRWarningToEDR_ten' has no description in UML model!
+[WARN] Module 'DcmAppl' has no description in UML model!
+[WARN] Attribute 'rb_co_NoOfCrashSigCycleConfig_u8' in 'rb_co_CustCrashOutput' has no description in UML model!
+[WARN] Attribute 'rb_scse_GsBitSetByPSIReadData_bo' in 'rb_scse_SensorSafetyPathMgt' has no description in UML model!
+[WARN] Attribute 'Init2DataPart1_st' in 'rb_pspr_Init2Data_tst' has no description in UML model!
+[WARN] Class 'rb_util_Options_Cfg' is not contained in any package!
+[WARN] Class 'rb_sycp_SensorChannels_ten' is not contained in any package!
+[WARN] Class 'rb_sycp_PsIfAsicLines_ten' is not contained in any package!
+[WARN] Class 'rb_syc_SysConfigOptions_Cfg' is not contained in any package!
+[WARN] Class 'rb_scse_45DegStates_ten' is not contained in any package!
+[WARN] Class 'rb_sbr_CustSeatBeltReminder_Cfg' is not contained in any package!
+[WARN] Class 'rb_sbr_CustSeatBeltReminder' is not contained in any package!
+[WARN] Class 'rb_rmac_ReleaseMatrix_Cfg' is not contained in any package!
+[WARN] Class 'rb_prg_PlantReProg' is not contained in any package!
+[WARN] Class 'rb_prdp_FrameType_ten' is not contained in any package!
+[WARN] Class 'rb_pcrm_ReportManager' is not contained in any package!
+[WARN] Class 'rb_pcds_DataSampler' is not contained in any package!
+[WARN] Class 'rb_pcdc_DCController' is not contained in any package!
+[WARN] Class 'rb_mem_MemConfigOptions_Cfg' is not contained in any package!
+[WARN] Class 'rb_mcs_SpecFuncRegs' is not contained in any package!
+[WARN] Class 'rb_mcbs_SafingPathMgt' is not contained in any package!
+[WARN] Class 'rb_mcb_MultiCollisionBrakeMgt' is not contained in any package!
+[WARN] Class 'rb_dstm_DataStreamingMgt' is not contained in any package!
+[WARN] Class 'rb_csh_CustCanStateHandler' is not contained in any package!
+[WARN] Class 'rb_cosc_CustCOSystemCallback' is not contained in any package!
+[WARN] Class 'rb_co_CustCrashOutput' is not contained in any package!
+[WARN] Class 'rb_cap_CustFmCanDataInterface' is not contained in any package!
+[WARN] Class 'oss_int_osinterface' is not contained in any package!
+[WARN] Class 'dcm' is not contained in any package!
+[WARN] Class 'cantp' is not contained in any package!
+[WARN] Class 'cansm_comm' is not contained in any package!
+[WARN] Class 'canif_types' is not contained in any package!
+[WARN] Class 'Rte_Dem_Type' is not contained in any package!
+[WARN] Class 'RB_sycf_UseBeltTensioner2ndC_cs' is not contained in any package!
+[WARN] Class 'NvM_Cfg' is not contained in any package!
+[WARN] Class 'MemIf_Types' is not contained in any package!
+[WARN] Class 'Dem_EventFHandling' is not contained in any package!
+[WARN] Class 'CompilerSwitchesFm' is not contained in any package!
+[WARN] Class 'CanIf_Cfg' is not contained in any package!
+[WARN] Class 'BswM_ModeManagerId' is not contained in any package!
+[WARN] Config File name 'rb_drdi_ReadDataByIdentifier_EeCfg' does not end with '_Cfg'!
+[WARN] 'rb_evm_SeverityType_ten' is not connected via Aggregation link!
+[WARN] 'rb_sbr_SBRWarningToEDR_ten' is not connected via Aggregation link!
+[WARN] 'rb_evm_EventType_ten' is not connected via Aggregation link!
+[WARN] PDI 'rb_sbr_SBRVehicleSpeed_u16' in module 'rb_sbr_CustSeatBeltReminder' is public but has no stereotype <<volatile>>!
+[WARN] PDI 'rb_sbr_SBRBeltStatus_au8' in module 'rb_sbr_CustSeatBeltReminder' is public but has no stereotype <<volatile>>!
+[WARN] PDI 'rb_sbr_SBROccuStatus_au8' in module 'rb_sbr_CustSeatBeltReminder' is public but has no stereotype <<volatile>>!
+[WARN] PDI 'rb_csh_ShutDownTimeStamp_u32' in module 'rb_csh_CustCanStateHandler' is protected but has no stereotype <<volatile>>!
+[WARN] PDI 'rb_csh_IPduGrpVctr_au8' in module 'rb_csh_CustCanStateHandler' is protected but has no stereotype <<volatile>>!
+[WARN] PDI 'rb_sfcm_ClmResetCounter_st' in module 'rb_sfcm_ClockMonitoring' is public but has no stereotype <<volatile>>!
+[WARN] PDI 'rb_scse_GsBitSetByPSIReadData_bo' in module 'rb_scse_SensorSafetyPathMgt' is public but has no stereotype <<volatile>>!
+[WARN] PDI 'rb_dwdi_DynamicBehaviorBits_au8' in module 'rb_dwdi_EndOfLineConfiguration' is public but has no stereotype <<volatile>>!
+[WARN] PDI 'rb_dwdi_StaticBehaviourBits_au8' in module 'rb_dwdi_EndOfLineConfiguration' is public but has no stereotype <<volatile>>!
+[WARN] Name of <<interface>> 'Com_Cbk' does not end with 'Interface'
+[WARN] Invalid generalization instead of realisation between 'rb_dcds_CustDataSampler' and Interface 'rb_dcds_DataSamplerInterface'!
+[WARN] Interface 'rb_dcbm_BufferManagerInterface' incorrectly contains a private function 'rb_dcbm_GetLowPriorOldestStoreBufferNonSev0RT'.
+        1 file(s) copied.
+Press any key to continue . . . 
