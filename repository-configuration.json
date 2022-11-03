@@ -1,89 +1,104 @@
 {
-    "gammaAccess": {
-        "url": "",
-        "userName": "",
-        "password": ""
-    },
-    "repositories": [
-        {
-            "dataDir": "%WORKSPACE%/temp",
-            "repository": {
-                "uid": "0e1c3665863ee85b18f357d364109e35",
-                "projectName": "githubdemo_jenkins",
-                "languages": [
-                    "JAVA"
-                ],
-                "sources": {
-                    "baseDir": "%WORKSPACE%",
-                    "exclusions": []
-                }
-            },
-            "settings": {
-                "additionalOptions": [],
-                "includePaths": []
-            },
-            "modules": {
-                "codeissues": [
-                    {
-                        "name": "gamma_java",
-                        "enabled": true,
-                        "config": {
-                            "rules": [],
-                            "options": []
-                        }
-                    }
-                ],
-                "unittest": [
-                    {
-                        "name": "junit",
-                        "enabled": true,
-                        "config": {
-                            "rules": [],
-                            "options": [
-                                {
-                                    "name": "reportDir",
-                                    "type": "upload",
-                                    "value": "",
-                                    "required": true
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "coverage": [
-                    {
-                        "name": "jacoco",
-                        "enabled": true,
-                        "config": {
-                            "rules": [],
-                            "options": [
-                                {
-                                    "name": "binaryReportPath",
-                                    "type": "upload",
-                                    "value": "",
-                                    "required": false
-                                },
-                                {
-                                    "name": "xmlReportPath",
-                                    "type": "upload",
-                                    "value": "",
-                                    "required": true
-                                }
-                            ]
-                        }
-                    }
-                ],
-                "relevance": [
-                    {
-                        "name": "relevance",
-                        "enabled": true,
-                        "config": {
-                            "rules": [],
-                            "options": []
-                        }
-                    }
-                ]
-            }
-        }
-    ]
+	"gammaAccess": {
+		"url": "",
+		"userName": "",
+		"password": ""
+	},
+	"repositories": [{
+		"dataDir": "%WORKSPACE%/temp",
+		"repository": {
+			"uid": "0e1c3665863ee85b18f357d364109e35",
+			"projectName": "githubdemo_jenkins",
+			"languages": [
+				"JAVA"
+			],
+			"sources": {
+				"baseDir": "%WORKSPACE%",
+				"exclusions": []
+			}
+		},
+		"settings": {
+			"additionalOptions": [],
+			"includePaths": []
+		},
+		"modules": {
+			"codeissues": [{
+				"name": "gamma_java",
+				"enabled": true,
+				"config": {
+					"rules": [],
+					"options": []
+				}
+			}],
+			"unittest": [{
+				"name": "junit",
+				"enabled": true,
+				"config": {
+					"rules": [],
+					"options": [{
+						"name": "reportDir",
+						"type": "upload",
+						"value": "",
+						"required": true
+					}]
+				}
+			}],
+			"coverage": [{
+				"name": "jacoco",
+				"enabled": true,
+				"config": {
+					"rules": [],
+					"options": [{
+							"name": "binaryReportPath",
+							"type": "upload",
+							"value": "",
+							"required": false
+						},
+						{
+							"name": "xmlReportPath",
+							"type": "upload",
+							"value": "",
+							"required": true
+						}
+					]
+				}
+			}],
+			"relevance": [{
+				"name": "relevance",
+				"enabled": true,
+				"config": {
+					"rules": [],
+					"options": []
+				}
+			}],
+
+			"report_processor": [{
+				"name": "ext_report_processor",
+				"config": {
+					"rules": [],
+					"options": [{
+							"name": "dem.reportDir",
+							"type": "upload",
+							"value": "/var/jenkins_home/airbagfiles/",
+							"required": true
+						},
+						{
+							"name": "memory.reportFile",
+							"type": "upload",
+							"value": "/var/jenkins_home/airbagfiles/PS1201_A0_0001_BB000000_Cat1_memory_report.html",
+							"required": true
+						},
+						{
+							"name": "ameos.reportDir",
+							"type": "upload",
+							"value": "/var/jenkins_home/airbagfiles/",
+							"required": true
+						}
+					]
+
+				}
+			}]
+		}
+
+	}]
 }
