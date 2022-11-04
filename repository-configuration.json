@@ -1,20 +1,21 @@
 {
 	"gammaAccess": {
 		"url": "",
-		"userName": "",
-		"password": ""
+		"token": ""
 	},
 	"repositories": [{
 		"dataDir": "%WORKSPACE%/temp",
 		"repository": {
-			"uid": "0e1c3665863ee85b18f357d364109e35",
-			"projectName": "githubdemo_jenkins",
+			"uid": "9efa69f4c0face312d8669a4c56a0fd2",
+			"projectName": "3.04-Bosch",
 			"languages": [
 				"JAVA"
 			],
 			"sources": {
 				"baseDir": "%WORKSPACE%",
-				"exclusions": []
+				"exclusions": [
+					"(?i)(test|generated|mock|thirdparty|third-party|3rd-party|3rdparty|external)"
+				]
 			}
 		},
 		"settings": {
@@ -23,13 +24,47 @@
 		},
 		"modules": {
 			"codeissues": [{
-				"name": "gamma_java",
-				"enabled": true,
-				"config": {
-					"rules": [],
-					"options": []
+					"name": "gamma_java",
+					"enabled": true,
+					"config": {
+						"rules": [],
+						"options": []
+					}
+				},
+				{
+					"name": "gamma_generic",
+					"enabled": true,
+					"config": {
+						"rules": [],
+						"options": [{
+							"name": "reportDir",
+							"type": "upload",
+							"value": "$GENERIC_HOME",
+							"required": true
+						}]
+					}
+				},
+				{
+					"name": "pmd",
+					"enabled": true,
+					"config": {
+						"rules": [],
+						"options": [{
+								"name": "javaVersion",
+								"type": "text",
+								"value": "1.8",
+								"required": false
+							},
+							{
+								"name": "ruleSets",
+								"type": "text",
+								"value": "",
+								"required": true
+							}
+						]
+					}
 				}
-			}],
+			],
 			"unittest": [{
 				"name": "junit",
 				"enabled": true,
@@ -44,20 +79,62 @@
 				}
 			}],
 			"coverage": [{
-				"name": "jacoco",
+					"name": "clover",
+					"enabled": true,
+					"config": {
+						"rules": [],
+						"options": [{
+							"name": "reportDir",
+							"type": "upload",
+							"value": "",
+							"required": true
+						}]
+					}
+				},
+				{
+					"name": "jacoco",
+					"enabled": true,
+					"config": {
+						"rules": [],
+						"options": [{
+								"name": "binaryReportPath",
+								"type": "upload",
+								"value": "",
+								"required": false
+							},
+							{
+								"name": "xmlReportPath",
+								"type": "upload",
+								"value": "",
+								"required": false
+							}
+						]
+					}
+				}
+			],
+			"report_processor": [{
+				"name": "ext_report_processor",
 				"enabled": true,
 				"config": {
 					"rules": [],
 					"options": [{
-							"name": "binaryReportPath",
+							"name": "dem.reportDir",
 							"type": "upload",
-							"value": "",
-							"required": false
+							"value": "$REPORTS_HOME",
+							"required": true
 						},
+
 						{
-							"name": "xmlReportPath",
+							"name": "memory.reportDir",
 							"type": "upload",
-							"value": "",
+							"value": "$REPORTS_HOME/PS1201_A0_0001_BB000000_Cat1_memory_report.html",
+							"required": true
+						},
+
+						{
+							"name": "ameos.reportDir",
+							"type": "upload",
+							"value": "$REPORTS_HOME",
 							"required": true
 						}
 					]
@@ -70,35 +147,7 @@
 					"rules": [],
 					"options": []
 				}
-			}],
-
-			"report_processor": [{
-				"name": "ext_report_processor",
-				"config": {
-					"rules": [],
-					"options": [{
-							"name": "dem.reportDir",
-							"type": "upload",
-							"value": "$REPORTS_HOME",
-							"required": true
-						},
-						{
-							"name": "memory.reportFile",
-							"type": "upload",
-							"value": "$REPORTS_HOME/PS1201_A0_0001_BB000000_Cat1_memory_report.html",
-							"required": true
-						},
-						{
-							"name": "ameos.reportDir",
-							"type": "upload",
-							"value": "$REPORTS_HOME",
-							"required": true
-						}
-					]
-
-				}
 			}]
 		}
-
 	}]
 }
