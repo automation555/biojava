@@ -79,19 +79,19 @@
 					"options": [{
 							"name": "dem.reportDir",
 							"type": "upload",
-							"value": "$WORKSPCAE/reportfiles",
+							"value": "$REPORTS_HOME/reportfiles",
 							"required": true
 						},
 						{
 							"name": "memory.reportFile",
 							"type": "upload",
-							"value": "$WORKSPCAE/reportfiles/PS1201_A0_0001_BB000000_Cat1_memory_report.html",
+							"value": "$REPORTS_HOME/reportfiles/PS1201_A0_0001_BB000000_Cat1_memory_report.html",
 							"required": true
 						},
 						{
 							"name": "ameos.reportDir",
 							"type": "upload",
-							"value": "$WORKSPCAE/reportfiles",
+							"value": "$REPORTS_HOME/reportfiles",
 							"required": true
 						}
 					]
