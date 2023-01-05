@@ -42,6 +42,11 @@ public class DemoMmtfReader {
 	public static void main(String[] args) throws IOException, StructureException {
 		Structure structure = MmtfActions.readFromWeb("4cup");
 		System.out.println(structure.getChains().size());
+		System.out.println(structure.getChains().size());
+		System.out.println(structure.getChains().size());
+		System.out.println(structure.getChains().size());
+		
+		
 	}
 
 }
