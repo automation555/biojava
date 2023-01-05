@@ -39,6 +39,6 @@ public class AlignmentGuiDemo {
 
 		AlignmentGui.getInstance();
 		MultipleAlignmentGUI.getInstance();
-		System.out.println("Link repository with SSH is not working in RHEL 7.9");
+		
 	}
 }
