@@ -39,6 +39,8 @@ public class AlignmentGuiDemo {
 
 		AlignmentGui.getInstance();
 		MultipleAlignmentGUI.getInstance();
+		MultipleAlignmentGUI.getInstance();
+		
 		
 	}
 }
