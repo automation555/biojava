@@ -93,6 +93,7 @@ public abstract class Hsp <S extends Sequence<C>, C extends Compound> {
 	public boolean equals(Object obj) {
 		if (obj == null) {
 			return false;
+			int k=0;
 		}
 		if (getClass() != obj.getClass()) {
 			return false;
