@@ -33,7 +33,7 @@ public class DemoMmtfWriter {
 	public static void main(String[] args) throws IOException, StructureException {
 		Structure structure = StructureIO.getStructure("4cup");
 		MmtfActions.writeToFile(structure, Paths.get("/tmp/4cup.mmtf"));
-		System.out.println("Code issue added");
+		
 	}
 
 
