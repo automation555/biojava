@@ -96,6 +96,8 @@ public class DemoDistanceTree {
 		// 3. Evaluate the goodness of fit of the tree
 		double cv = DistanceTreeEvaluator.evaluate(phylo, DM);
 		System.out.println("CV of the tree: " + (int) (cv * 100) + " %");
+		System.out.println("CV of the tree: " + (int) (cv * 100) + " %");
+		System.out.println("CV of the tree: " + (int) (cv * 100) + " %");
 
 	}
 }
