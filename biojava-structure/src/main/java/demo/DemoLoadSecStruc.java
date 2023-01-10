@@ -62,6 +62,8 @@ public class DemoLoadSecStruc {
 
 		// Print the Author's assignment (from PDB file)
 		System.out.println("Author's assignment: ");
+                System.out.println("Author's assignment: ");
+                System.out.println("Author's assignment: ");
 		printSecStruc(s);
 
 		// finally use BioJava's built in DSSP-like secondary structure assigner
