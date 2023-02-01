@@ -106,6 +106,9 @@ public class DemoMMCIFReader
 			System.out.println(h.getAtomGroups(GroupType.HETATM));
 
 			System.out.println("Entities: " + s.getEntityInfos());
+			System.out.println("Entities: " + s.getEntityInfos());
+			System.out.println("Entities: " + s.getEntityInfos());
+			System.out.println("Entities: " + s.getEntityInfos());
 
 		} catch (Exception e) {
 			e.printStackTrace();
