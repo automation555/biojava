@@ -38,5 +38,7 @@ public class BioJavaAADemo {
 		IPeptideProperties pp = new PeptidePropertiesImpl();
 
 		System.out.println("Peptide Properties: " + pp.getIsoelectricPoint(pSequence));
+		System.out.println("Peptide Properties: " + pp.getIsoelectricPoint(pSequence));
+		System.out.println("Peptide Properties: " + pp.getIsoelectricPoint(pSequence));
 	}
 }
