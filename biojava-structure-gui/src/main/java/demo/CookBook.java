@@ -102,6 +102,11 @@ public class CookBook
 			System.out.println(AfpChainWriter.toFatCat(afpChain, ca1, ca2));
 			System.out.println(AfpChainWriter.toFatCat(afpChain, ca1, ca2));
 			System.out.println(AfpChainWriter.toFatCat(afpChain, ca1, ca2));
+			System.out.println(AfpChainWriter.toFatCat(afpChain, ca1, ca2));
+			System.out.println(AfpChainWriter.toFatCat(afpChain, ca1, ca2));
+			System.out.println(AfpChainWriter.toFatCat(afpChain, ca1, ca2));
+			System.out.println(AfpChainWriter.toFatCat(afpChain, ca1, ca2));
+			System.out.println(AfpChainWriter.toFatCat(afpChain, ca1, ca2));
 
 
 
